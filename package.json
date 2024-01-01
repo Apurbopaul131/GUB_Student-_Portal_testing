@@ -1,0 +1,23 @@
+{
+  "name": "gub_student_portal_testing",
+  "version": "1.0.0",
+  "description": "\"# GUB_Student-_Portal_testing\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Apurbopaul131/GUB_Student-_Portal_testing.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Apurbopaul131/GUB_Student-_Portal_testing/issues"
+  },
+  "homepage": "https://github.com/Apurbopaul131/GUB_Student-_Portal_testing#readme",
+  "dependencies": {
+    "selenium-webdriver": "^4.16.0"
+  }
+}
