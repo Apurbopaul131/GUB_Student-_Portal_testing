@@ -9,16 +9,16 @@ const assert = require('assert');
         // Array of ojects that contains mulple student id and password for test login panel
         const loginInfo = [
             {
-                id: '193002133',
-                password: '1310367010'
+                id:'193002133',
+                password:'1310367010'
             },
             {
                 id: '193002134',
-                password: '1310'
+                password:'1310'
             },
             {
-                id: '193002174',
-                password: 'bappyma'
+                id:'193002174',
+                password:'bappyma'
             }
         ];
 
@@ -67,7 +67,7 @@ async function testLoginAndButton(driver, id, password) {
         await driver.wait(until.titleIs('Log in - GUB Student Portal'), 8000);
         await driver.findElement(By.id('Input_LoginId')).sendKeys(id);
         await driver.findElement(By.id('Input_Password')).sendKeys(password);
-        await driver.findElement(By.xpath('//*[@id="account"]/div[4]/button')).click(); // Replace 'yourButtonId' with the actual ID of the login button
+        await driver.findElement(By.xpath('//*[@id="account"]/div[4]/button')).click();
 
         //check the successfully login or not using url
         await driver.wait(until.urlIs('https://studentportal.green.edu.bd/'), 5000);
